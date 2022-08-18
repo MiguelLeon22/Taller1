@@ -9,6 +9,6 @@ package modelo;
  *
  * @author miguel.leon
  */
-public class Tools {
+public class Post {
     
 }
