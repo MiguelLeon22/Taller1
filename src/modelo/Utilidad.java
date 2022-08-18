@@ -25,7 +25,7 @@ import org.jdom2.output.XMLOutputter;
  * @author Nano
  */
 public class Utilidad {
-    public static boolean crearXML(HashMap<Integer, FiguraGeometrica> mp, String ruta) {
+    public static boolean crearXML(HashMap<Integer, Figura> mp, String ruta) {
        boolean t = false;
        try{
            Element figuraGeometrica = new Element("FigurasGeometrica");
